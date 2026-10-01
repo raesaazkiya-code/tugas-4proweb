@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Purple+Purse&display=swap");
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <!--navigation bar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Drama</a></li>
+            <li><a class="dropdown-item" href="#">Movie</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Genre</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+
+        <!--ini nnti yg search hapus aja-->
+        <button class="btn btn-outline-success" type="submit ms-1 me-1" >Search</button>
+
+        <!--ini yag tambahan dari tugas-->
+       
+        <button type="button" class="btn btn-outline-success ms-1 me-1">daftar</button>
+      
+        <input class="btn btn-primary" type="submit" value="masuk">
+        
+      </form>
+    </div>
+  </div>
+</nav>
+        <div class="row">
+          <div class="col">
+            <h1 style="font-family: Tangerine">
+              halo!<br />Selamat Datang di kumpulan drama korea favorit saya
+            </h1>
+            <p class="mt-3 mb-4">Ini adalah 3 drama korea yang menurut saya bagus.</p>
+            <a href="a" class="btn btn-warning">Mulai</a>
+          </div>
+          <div class="col d-none d-lg-block d-xl-block mt-3"><img src="kumpulandrakor.jpeg" width="550" /></div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <!-- TEMPATKAN DI BAWAH HERO/HEADER ANDA -->
+<div class="container my-5">
+    <!-- Membuat baris (row) -->
+    <div class="row g-4">
+        
+        <!-- Kolom 1 (Menggunakan col-md-4 untuk layout 3 kolom pada layar sedang-besar) -->
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="taxidriver.jpg" class="card-img-top" alt="Gambar Berita 1">
+                <div class="card-body">
+                    <h5 class="card-title">Taxi Driver</h5>
+                    <p class="card-text">Menceritakan tentang tim kecil yang menyediakan layanan taxi khusus untuk membalaskan dendam orang orang yang tidak mendapat keadilan hukum.</p>
+                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kolom 2 -->
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="blind2.jpg" class="card-img-top" alt="Gambar Berita 2">
+                <div class="card-body">
+                    <h5 class="card-title">Blind</h5>
+                    <p class="card-text"> Menceritakan tentang kisah penyelidikan kasus pembunuhan berantai sadis yang melibatkan para korban, pelaku, serta orang-orang biasa yang menjadi juri persidangan.</p>
+                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kolom 3 -->
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="traumacode2.webp" class="card-img-top" alt="Gambar Berita 3">
+                <div class="card-body">
+                    <h5 class="card-title">Heroes on Call: The Trauma Code</h5>
+                    <p class="card-text"> Menceritakan perjuangan seorang dokter bedah trauma jenius bernama Baek Kang-hyuk dalam merevolusi pusat layanan trauma di sebuah rumah sakit universitas.</p>
+                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+  
+    
+
+  </body>
+</html>
